@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovatech Institute of Engineering</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="logo"> <img src="/images/michigan-state-university-logo-png-transparent.png" alt="logo">
+            <h1>Innovatech</h1></div>
+           
+            <div class="nav-links " >
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Course</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="nav-links1" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Course</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="t1">
+            <h1>Empowering Innovators, Engineering the Future!</h1>
+            <p>At Innovatech Institute of Engineering, we foster creativity and expertise to shape tomorrow's technological landscape.<br> Join us in pioneering breakthroughs and leading innovation forward</p>
+            <button>Know more</button>
+        </div>
+    </section>
+
+    <hr>
+<!--offers-->
+   <section class="offers">
+    <div class="co-tab">
+        <div class="co-row">
+            <h1>10 years</h1>
+            <div class="blue"><p>legacy</p></div>     
+        </div>
+        <div class="co-row">
+            <h1>Rs 7 Cr+</h1>
+            <div class="blue"><p>worth scholorships</p></div>
+        </div>
+        <div class="co-row">
+            <h1> 500+ offers</h1>
+            <div class="blue"><p>class of 2023</p></div>
+        </div>
+        <div class="co-row">
+            <h1>2000 +</h1>
+            <div class="blue"><p> students </p></div>
+        </div>
+    </div>
+   </section>
+<!----Facilities---->
+   <section class="facilities">
+    <div class="tittle">
+        <h1>Our Campus</h1>
+        <p>Look what Innovators has to provide</p>
+        <hr>
+    </div>
+    <div class="fac-tab">
+        <div class="fac-box one" style="background-image: url(/images/basket\ ball\ court.jpg);">
+            <div class="info-pac"><p>Sports</p></div>     
+        </div>
+        <div class="fac-box" style="background-image: url(/images/library.jpg);">
+            <div class="info-pac"><p>library</p></div>
+        </div>
+        <div class="fac-box" style="background-image: url(/images/Gym.jpg);">
+            <div class="info-pac"><p>Gym & facilities</p></div>
+        </div>
+        <div class="fac-box" style="background-image: url(./images/tech.jpg);">
+            <div class="img-fac4"></div>
+            <div class="info-pac"><p>Industry Interactions</p></div>
+        </div>
+    </div>
+   </section>
+   <!--Feedback-->
+   <section class="feedback">
+    <div class="tittle">
+        <h1>What Our Students Says</h1>
+        <p>Lorem ipsum dolor sit amet</p>
+        <hr>
+    </div>
+    <div class="fed-tab">
+        <div class="fed-box one" >
+            <img src="/images/pfp2.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A harum, iusto dolorem autem enim consequuntur eius ipsa mollitia asperiores hic maxime perspiciatis pariatur minus nam magni ratione doloribus deserunt ipsam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore aut atque quam repellendus !</p>
+            <h1>Mizuhara Rei</h1>  
+            <div class="icon"><i class="fa-solid fa-star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></i><i class="fa-regular fa-star-half-stroke"></i></div> 
+        </div>
+        <div class="fed-box one" >
+            <img src="/images/pfp1.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A harum, iusto dolorem autem enim consequuntur eius ipsa mollitia asperiores hic maxime perspiciatis pariatur minus nam magni ratione doloribus deserunt ipsam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore aut atque quam repellendus !</p>
+            <h1>Abdul Sahib</h1>  
+            <div class="icon"><i class="fa-solid fa-star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></i><i class="fa-regular fa-star"></i></div> 
+        </div>
+    </div>
+   </section>
+   <!--Footer-->
+   <section class="footer">
+    <hr>
+    <div class="foot-tab">
+        <h1>About Us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius exercitationem praesentium, deleniti <br>quidem esse, assumenda rem nesciunt similique tempora minus asperiores veritatis mollitia quas quod aliquid architecto tempore minima laudantium.</p>
+        <div class="icon">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-facebook"></i>
+        </div>
+        <p>Made by Abhinav K Manoj</p>
+    </div>
+   </section>
+   
+    <!--Toggle menu-->
+    <script>
+        var navLinks= document.getElementById("navLinks")
+
+        function showmenu()
+        {
+            navLinks.style.display= "block";
+        }
+        function hidemenu() {
+            navLinks.style.display= "none";
+                }
+    </script>
+</body>
+</html>
