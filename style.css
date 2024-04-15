@@ -170,6 +170,22 @@ nav .fa-solid
         margin: 10px;
     }
 }
+@media(max-width:400px)
+{
+    .header h1
+    {
+        font-size: 30px;
+        padding-top: 10px;
+    }
+}
+@media(max-width:350px)
+{
+    .header h1
+    {
+        font-size: 25px;
+        padding-top: 15px;
+    }
+}
 hr{
     width: 100%;
     margin-top: 50px;
@@ -347,6 +363,13 @@ img
         justify-content: center;
     }
 }
+@media(max-width:400px)
+{
+    .fac-box{
+        width: 280px;
+        margin: 30px;
+    }
+}
 /* Feedback */
 .feedback
 {
@@ -419,6 +442,18 @@ img
         margin: 5px;
         top: 80%;
     }
+}
+@media(max-width: 400px)
+{
+    .fed-box
+    {
+        width: 300px;
+    }
+  .fed-box .icon{
+    position: absolute;
+    margin: 0;
+    top: 70%;
+  }
 }
 /*Footer*/
 .footer
